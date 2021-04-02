@@ -1,0 +1,331 @@
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* navigation bar */
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0.2rem 0.5rem;
+}
+.header_area .main-menu .navbar{
+    padding: 1rem 4rem;
+}
+.header_area .main-menu .nav-item .nav-link{
+    font-family: 'Playfair Display', serif;
+    padding: 1.7rem;
+    color: black;
+}
+.header_area .main-menu .navbar-nav .nav-link{
+    padding: 1rem 1rem;
+    letter-spacing: 2px;
+}
+
+.header_area .main-menu .navbar .name-logo {
+    letter-spacing: 2px;
+}
+
+.header_area .main-menu .navbar .name-logo .logo img{
+    width: 80px;   
+}
+.header_area .main-menu .navbar .active {
+    border-bottom: black solid 2px;
+}
+
+/* Banner */
+.site-main{
+margin-top: 4rem;
+}
+
+.site-main .site-banner{
+    background-image: url(../assets/ClipartKey_624405.png) no-repeat 0% 50%;   
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 60VH;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 500px;
+}
+
+/* button */
+.button {
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px var('Playfair Display', serif);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+.button.primary-button{
+    /* background: var(--gradient-color); */
+    background: rgb(253,186,49);
+    background-clip: padding-box;
+    color: white;
+    transition: background .6s ease;
+    /* box-shadow: var(box-shadow); */
+    box-shadow: rgb(239, 255, 179);
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+/* about  */
+ .about-area {
+    padding: 5rem 5rem;
+}
+
+.about-area .about-title .paragraph>p{
+    padding: .4rem 0;
+
+}
+.img-box {
+    padding-top: 59px;
+}
+.about-area .about-image img{
+    width: 300px;
+    margin-left: 10%;
+    border-radius: 45px;
+        
+}
+
+
+/* Brand Area */
+
+.site-main .brand-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0rem;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand> img{
+    text-height: 50%;
+
+}
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
+   box-shadow: var(--box-shadow); 
+   transform: scale(1.1);
+}
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover>img{
+    filter:brightness(0.15);
+}
+
+.site-main .brand-area .experience-area span{
+    display: block;
+
+}
+.site-main .brand-area .experience-area .years-area{
+    background: url() no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+/* project area */
+
+.projects-area{
+    padding-top: 153px;
+}
+.projects-area .card{
+    border: transparent;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.projects-area .card >img{    
+    border-radius: 35px;
+}
+.projects-area .card .redcard{
+    max-height: 200px;
+}
+
+
+/* footer */
+
+.footer .container {
+    background-color: antiquewhite;
+    margin-top: 2rem ;
+    margin-bottom: 0;
+
+}
+
+.footer .btn .fab{
+    background-color: antiquewhite;
+    color: rgb(133, 133, 133);
+}
+.footer .btn .fab:hover{
+    background: antiquewhite;
+    background-clip: padding-box;
+    color: black;
+    
+}
+
+/* resume  */
+.resume-body {
+    
+}
+.resume-page {
+    padding: 30px;
+}
+.resume-page .resume {
+    width: 100%;
+    height: 1000PX;
+}
+.resume-page .resume .ifr-res{
+    width: 40vw;
+    height: 100vh;
+    zoom: 110%;
+}
+
+/* contact form page */
+.pagetwo{
+    margin-top: 10rem;
+}
+.contact{
+    margin: 5% 10%;
+}
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
